@@ -2,7 +2,7 @@
 This is a Julia Implementation of the Incremental K-SVD Dictionary Learning Presented in: https://ieeexplore.ieee.org/document/6799952
 by Lizhe Wang ; Ke Lu ; Peng Liu ; Rajiv Ranjan and Lajiao Chen
 
-This implementation assumes that you have already trained on Y_1 ... Y_{s-1} and you wish to solve m more atoms using dataset Y_s, as a result, atoms d_1...d_n in D_old will be unchanged and updates will only be made to the d_{n+1}...d_{n+m} atoms according to step 3 of the IK-SVD (note $k \in \{n+1, ..., n+m\}$
+This implementation assumes that you have already trained on Y_1 ... Y_{s-1} and you wish to solve m more atoms using dataset Y_s, as a result, atoms d_1...d_n in D_old will be unchanged and updates will only be made to the d_{n+1}...d_{n+m} atoms according to step 3 of the IK-SVD (note $`k \in \{n+1, ..., n+m\}`$
 
 
 Conditioned USPS dataset can be found here: https://www.dropbox.com/sh/4pn9kty1kw8dl67/AADa7YshuXCtW5ouYxcc-Rnpa?dl=0
